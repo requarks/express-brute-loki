@@ -1,0 +1,12 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"express-brute-loki.sublime-project"
+			],
+			"path": "."
+		}
+	]
+}

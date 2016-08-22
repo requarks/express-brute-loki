@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- '6'
+- '5'
+- '4.4'
+cache:
+  directories:
+  - node_modules
+script:
+- npm install -g snyk
+- snyk auth $SNYK_TOKEN
+- snyk monitor
+env:
+  global:
+    secure: lNSXzRGvvN8wXLxSJyQpVMJQQFfcgaC2AapH3zG+4j6eAoR+7BVzareOgU193hJyZzge4vsXdxYuInzywXs8reKeXLp2eMMchwBIJ6YqTcc09dsXu5eBUCdw3Q85WSlLqXghSUZwp91VH+KEck4h0sZUzKXfDfmKzXPQ0VTmOYTfzWTQ0/S2jWyq0Ghjn3VbmeUJfH9eMFIeZPA9+3FxFb99vZnbQ57oeCy/1OvtVndRxmtnNgDVkzjcfVQPbVuPk//GiSlRRjN2AG4k3FqxZbOyroaFATam3NVgxwEXqHh3/vrk9e9S35EdHY4EDujyl9jF5fsbjZQ2sczULkNnllY+S+OQtI7c9k2DOabvBfMl73CDta6SGI2Ym45ni9SW/6Jg9ENdTLJBKny5mfp+rkbvN5aJhYgeY50gT5gH4/8s3mFca0Z9Vpr0PfWdppglAQiLiwIJw/E4bxXYEwK01gTlv5XFk7q943tMVqpaZuB0w9spgqBAg1cXn3WbSMOXxMibi9mLHiXX+YLhpThkr3zLEetjc7RtztkUXEP8+tR1b9wYcVHuO/O6qac6wFevUSbJSRttPIyX1WT9oN1bJO96WQmwaUr/jNJrBCn66m3VJRbIiSXaB1sWYrr1O1dwdXT9lzlDZl/3Vxjm+/l7AWtiVBrvuBJd0eNK6Pl4/0k=

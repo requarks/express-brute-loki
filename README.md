@@ -19,9 +19,9 @@ npm install express-brute-loki
 
 ```js
 var ExpressBrute = require('express-brute'),
-    LokiStore = require('express-brute-loki');
+    ExpressBruteLokiStore = require('express-brute-loki');
 
-var store = new LokiStore({
+var store = new ExpressBruteLokiStore({
     path: './brute.db' // See all available options below
 });
 var bruteforce = new ExpressBrute(store);
@@ -40,7 +40,7 @@ Setting the `path` to the database file is optional but recommended.
 
 Available parameters:
 
--	`path` Path to the database file. Defaults to `./session-store.db`
+-	`path` Path to the database file. Defaults to `./brute-store.db`
 -	`autosave` Set `false` to disable save to disk. Defaults to `true`
 - `ttl` Duration in seconds to keep entries. Set to `0` to disable TTL. Defaults to `0`
 -	`logErrors` Whether or not to log client errors. Defaults to `false`

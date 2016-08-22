@@ -1,1 +1,1 @@
-"use strict";
+module.exports = require('./lib/express-brute-loki');

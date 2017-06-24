@@ -1,5 +1,7 @@
 # express-brute-loki
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Requarks/express-brute-loki.svg)](https://greenkeeper.io/)
+
 [![NPM version](http://img.shields.io/npm/v/express-brute-loki.svg)](https://www.npmjs.com/package/express-brute-loki)
 [![Build Status](https://travis-ci.org/Requarks/connect-loki.svg?branch=master)](https://travis-ci.org/Requarks/express-brute-loki)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/0dfbd8126e5a4db6ab044df67957e4c5)](https://www.codacy.com/app/Requarks/express-brute-loki)
